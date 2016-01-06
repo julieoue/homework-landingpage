@@ -10,6 +10,9 @@
  *        margin: 20px;
  *        font-weight: bold;
  *    }
+ * 
+ *    Also, make sure you apply the font specs to all of the parts of the page, as per the design file.
+ *    it seems to be missing for the paragraph (<p>) tags.
  */
 
 header {
