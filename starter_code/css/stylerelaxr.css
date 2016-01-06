@@ -43,7 +43,7 @@ h3 {color: black;
 section {background-color: #f0efef;
 }
 
-h5 {color: white
+h5 {color: white;
 	font-family:'Open Sans', sans-serif;
 		font-weight: bold;
 		font-size: 14px;
@@ -65,6 +65,9 @@ h6 {color: white;
 	font-family:'Open Sans', sans-serif;
 		font-weight: bold;
 		font-size: 14px;}
+
+h7 {background-color: black;
+}
 
 
 footer {
