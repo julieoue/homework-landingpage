@@ -1,0 +1,74 @@
+
+header {
+	background: url("../images/header_bg.jpg"); 
+	}
+
+
+h1 {color: white;
+	margin: 20px;
+	text-align: left;
+	font-family: 
+		font-family:'Open Sans', sans-serif;
+		font-weight: bold;
+		font-size: 24px
+		}
+
+h2 { color: white;
+	margin: 40px;
+	text-align: center;
+	font-family:'Open Sans', sans-serif;
+		font-weight: semibold;
+		font-size: 24px
+		
+			}
+
+h3 {color: black; 
+	margin: 40px;
+	text-align: center;
+	background:#f9e42e;
+	padding: 5px; 
+	border: 5px solid;
+	border-color: yellow;
+	border-width: 5px;
+	font-family:'Open Sans', sans-serif;
+		font-weight: bold;
+		font-size: 14px;
+	}
+
+
+
+
+
+
+section {background-color: #f0efef;
+}
+
+h5 {color: white
+	font-family:'Open Sans', sans-serif;
+		font-weight: bold;
+		font-size: 14px;
+
+}
+
+ul li{
+    list-style-type: circle;
+}
+
+h6 {color: white;
+	margin: 40px;
+	text-align: center;
+	background:#f9e42e;
+	padding: 5px; 
+	border: 5px solid;
+	border-color: yellow;
+	border-width: 5px;
+	font-family:'Open Sans', sans-serif;
+		font-weight: bold;
+		font-size: 14px;}
+
+
+footer {
+   background: url("../images/testimonial_bg.jpg")
+}
+
+  
