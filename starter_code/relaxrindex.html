@@ -1,3 +1,21 @@
+<!-- 
+	From Joni: Overall comments
+
+	Hi Julie!  I am going to put my comments for your code in comments like this one.
+
+	Make sure you stay consistant with your indenting.  Any time you open a new tag, indent in.  
+	Any time you close a tag, indent out.  So, for example:
+
+	<section>
+		<h1>This is my heading</h1>
+		<div>
+			<p>Some text here</p>
+			<p>Some text here too</p>
+		</div>
+	</section>
+-->
+
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -9,6 +27,11 @@
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
 	</head>
+
+	<!-- 
+		This line below can be deleted - you already have it inside your <head>.  Also, make sure that all
+		tags are inside either your <head> or your <body>
+	-->
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<body>
 		<div id="container">
@@ -18,10 +41,10 @@
 				<h2>Get piece of mind with a single tap</h2>
 				<h3> Get it Now</h3>
 			</header>
-			<div>
+			<div> <!-- I think this should be a close tag, right - i.e. </div> -->
 			
 <section>			
-<h4> Benefits 
+<h4> Benefits <!-- Make sure to close your h4 tag up here. -->
 
  <p> The perfect personal assistant. Relaxr does your job </p>
 	<p>	for you so you can enjoy life as it is meant to be. </p>
@@ -37,8 +60,8 @@
 </ul>
 </p>
 
-</div>
-</h4>
+</div> <!-- I cannot tell what div this is closing; this is why indenting is important. -->
+</h4> <!-- This close tag should be up on line 47 - the <h4> is only for the heading text - not for the rest of the text in this section. -->
 
 
 
@@ -49,6 +72,7 @@
 			</div>
 			<footer>
 		
+			<!-- The <h5> tag can be removed from here.  None of this is a heading and using the <p> tags is perfectly fine here. -->
 			<h5> <p>"Relaxr changed my life. I’ve been able </p>
 			<p> to travel the world, spend limited time </p>
 			<p> working and my boss keeps thanking me for crushing work." </p>
@@ -64,7 +88,7 @@
 </footer>
 
 <section>
-<div> Relaxr 
+<div> Relaxr <!-- This div needs to be closed at some pont -->
 
 Copyright 2015. Relaxr. 
 

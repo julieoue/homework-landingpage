@@ -1,3 +1,16 @@
+/* From Joni: Overall comments
+ *    Hi Julie!  I am going to put my comments for your code in comments like this one.
+ *
+ *    Overall, you have a good start to your indenting in your CSS file, but make sure that you
+ *    are consistant with how you indent.  Make sure all of your rules are indented the same amount of space
+ *    and that each rule is on its own line.  For example:
+ *
+ *    h1 {
+ *        color: white;
+ *        margin: 20px;
+ *        font-weight: bold;
+ *    }
+ */
 
 header {
 	background: url("../images/header_bg.jpg"); 
@@ -8,7 +21,7 @@ h1 {color: white;
 	margin: 20px;
 	text-align: left;
 	font-family: 
-		font-family:'Open Sans', sans-serif;
+		font-family:'Open Sans', sans-serif; /* Great use of multiple fonts here! */
 		font-weight: bold;
 		font-size: 24px
 		}
@@ -51,7 +64,7 @@ h5 {color: white;
 }
 
 ul li{
-    list-style-type: circle;
+    list-style-type: circle;  /* Nice override of the list style type to get the bullet point back! */
 }
 
 h6 {color: white;
@@ -66,7 +79,7 @@ h6 {color: white;
 		font-weight: bold;
 		font-size: 14px;}
 
-h7 {background-color: black;
+h7 {background-color: black; /* This could be removed - there is no h7 tag.  The header tags only go from 1 to 6. */
 }
 
 
