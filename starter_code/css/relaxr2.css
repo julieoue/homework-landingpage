@@ -1,5 +1,103 @@
-header {background-color: grey}
+header {
+	background-color: #033048;
+	padding:100px;
 
-section {float: right;
-            background-color: grey;
+}
+
+h1 {
+	
+	color: white;
+	font-size: 40px;
+	padding-bottom: 200px;
+
+
+	}
+
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   float: right;
+}
+
+li {
+	font-size: 24px;
+	float: left;
+	color: #f9e42e;
+	padding:20px 20px 50px 20px; 
+	width: 50px; 
+}
+
+
+
+
+
+
+
+section {
+
+	float: left;
+	background-color: #606161;
+	padding: 20px 0px 40px 0px;
+	text-align: center;
+	width: 800px;
         }
+
+h2 {
+	font-size: 40px;
+	font-weight: 800;
+}
+ 
+ p { 
+ 	font-size: 24px;
+}
+
+.categories {
+	background-color: #606161;
+	color: blue;
+	padding: 0px 0px 40px 0px;
+	width: 400px;
+}
+
+div {
+	float: left;
+
+
+}
+
+
+.about {
+	float:left;
+	color: blue;
+}
+.abouthead {
+	padding-top: 50px;
+	font-size: 24px;
+
+}
+
+.yellow {
+	background-color: #f9e42e;
+	padding: 20px 800px 20px 0px;
+	width: 800px;
+	 }
+
+.relaxr {
+	font-size: 24px;
+	color:#f9e42e;
+	font-weight: 800;
+	text-align: center;
+	padding: 20px;
+	width: 800px;
+}
+  
+
+
+.footer {
+ 	font-size: 14px;
+ 	font-weight: 500;
+ 	text-align: center;
+ 	clear:both;
+ 	
+}
