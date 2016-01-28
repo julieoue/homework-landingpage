@@ -142,6 +142,8 @@ h2 a {
   padding-left: 3px;
   font-weight: 600;
 }
+
+/*ND: Nice job here using float AND advanced selectors!*/
 .readmore, .readless {
   text-align: right;
   margin-top: 30px;
@@ -232,7 +234,3 @@ footer p {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
-
-
-
