@@ -17,8 +17,13 @@
 
 header {
 	background: url("../images/header_bg.jpg"); 
+	padding:20px 0px 300px 0px;
+	background-size: cover;
 	}
 
+body {
+	font-family: "Open Sans";
+}
 
 h1 {color: white;
 	margin: 20px;
@@ -39,55 +44,102 @@ h2 { color: white;
 			}
 
 h3 {color: black; 
-	margin: 40px;
+	margin:0 auto;
 	text-align: center;
 	background:#f9e42e;
 	padding: 5px; 
-	border: 5px solid;
+	border-radius: 5px;
 	border-color: yellow;
 	border-width: 5px;
 	font-family:'Open Sans', sans-serif;
-		font-weight: bold;
-		font-size: 14px;
+	font-weight: bold;
+	font-size: 14px;
+	width: 300px;
+	}
+
+
+
+h4 {font-size: 20px;
+	font-weight:700;
+	padding:0px 0px 0px 50px;
 	}
 
 
 
 
-
-
 section {background-color: #f0efef;
+		padding:50px 0px 50px 0px;
+
+}
+.notifications {background-color: black;
+				color: white;
 }
 
 h5 {color: white;
 	font-family:'Open Sans', sans-serif;
-		font-weight: bold;
-		font-size: 14px;
+		font-weight: 200;
+		font-size: 18px;
+		text-align: center;
+		padding:50px 0px 50px 0px;
 
+}
+
+p {font-size: 14px;
+	padding:0px 0px 0px 50px
 }
 
 ul li{
+<<<<<<< HEAD
     list-style-type: circle;  /* Nice override of the list style type to get the bullet point back! */
+=======
+	font-size: 14px;
+    list-style-type: disc;
+    padding:0px 0px 0px 10px
 }
 
+ul {margin-left: 40px;
+>>>>>>> julieoue/master
+}
+.yellow {
+	background-color: #f9e42e;
+	padding: 20px 0px 20px 0px;
+	 }
+
 h6 {color: white;
-	margin: 40px;
 	text-align: center;
-	background:#f9e42e;
+	background-color: #033048;
 	padding: 5px; 
-	border: 5px solid;
-	border-color: yellow;
-	border-width: 5px;
 	font-family:'Open Sans', sans-serif;
-		font-weight: bold;
-		font-size: 14px;}
+	font-weight: 700;
+	font-size: 14px;
+	margin:0 auto;
+	text-align: center;
+	padding: 5px; 
+	width: 300px;
+}
 
 h7 {background-color: black; /* This could be removed - there is no h7 tag.  The header tags only go from 1 to 6. */
 }
 
-
+.images {
+	text-align: center;	
+}
 footer {
-   background: url("../images/testimonial_bg.jpg")
+   background: url("../images/testimonial_bg.jpg");
+   background-size: cover;
 }
 
+.relaxr {
+	font-size: 24px;
+	color:#f9e42e;
+	font-weight: 800;
+	text-align: center;
+	padding: 20px;
+}
   
+ .footer {
+ 	font-size: 14px;
+ 	font-weight: 500;
+ 	text-align: center;
+ 	padding: 20px;
+ } 
