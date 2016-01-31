@@ -1,10 +1,22 @@
-
+/* From Joni: Overall comments
+ *    Hi Julie!  I am going to put my comments for your code in comments like this one.
+ *
+ *    Overall, you have a good start to your indenting in your CSS file, but make sure that you
+ *    are consistant with how you indent.  Make sure all of your rules are indented the same amount of space
+ *    and that each rule is on its own line.  For example:
+ *
+ *    h1 {
+ *        color: white;
+ *        margin: 20px;
+ *        font-weight: bold;
+ *    }
+ */
 
 h1 {color: white;
 	margin: 20px;
 	text-align: left;
 	font-family: 
-		font-family:'Open Sans', sans-serif;
+		font-family:'Open Sans', sans-serif;  /* Great use of multiple fonts here! */
 		font-weight: bold;
 		font-size: 24px
 		}
@@ -23,9 +35,9 @@ h3 {color: black;
 	text-align: center;
 	background:#f9e42e;
 	padding: 5px; 
-	border: 5px solid;
+	border: 5px solid;      /* You can combine these border lines into 1 rule if you prefer: border: 5px solid yellow; */
 	border-color: yellow;
-	border-width: 5px;
+	border-width: 5px;      /* This line is not necessary because you are declaring the width in your first border rule above. */
 	font-family:'Open Sans', sans-serif;
 		font-weight: bold;
 		font-size: 14px;
@@ -64,5 +76,5 @@ h6 {color: white;
 
 
 footer {
-    background: url("images/testimonial_bg.jpg");
+    background: url("images/testimonial_bg.jpg");  /* Perfect example of how to add a background image to an element. */
 }
