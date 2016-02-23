@@ -288,6 +288,15 @@ footer p {
   font-weight: 600;
 }
 
+/* 
+  Great use of the media query here.  Next time, indent the CSS rules inside the media query - it makes
+  reading the query (and realizing that you are still looking at CSS rules in a media query) a bunch
+  easier.
+
+  Also, completely love the use of comments in your code.  :)
+*/
+
+
 @media screen and (max-width: 768px) {
  /*
 
@@ -326,7 +335,12 @@ header nav {
 }
 
 .container {
-  padding: 0px 50px 0px 50px;
+  /* 
+    Try using ems or % (relative sizes) for padding instead of px - especially for left and right padding. 
+    It will make your page more responsive if all measurements used for width (or left, right) are relative
+    instead of having a mix
+  */
+  padding: 0px 50px 0px 50px; 
 
 }
 #sidebar p {
@@ -340,8 +354,23 @@ section {
 }
 
 img {
-  max-width: 100%;
+  max-width: 100%; /* Nice!! */
 }
+
+/* 
+  A thought for efficiency's sake: you can combine all of the CSS blocks that are only declaring a width of 100% into
+  one CSS block with multiple selectors; i.e.:
+
+  #posts,
+  .container,
+  body,
+  p .readmore
+  .yellow {
+    width: 100%;
+  }
+
+  What you have totally works; this is an alternative.
+*/
 
 #posts {
   width: 100%;
